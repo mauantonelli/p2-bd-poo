@@ -1,4 +1,7 @@
 package domain.repository;
 
-public interface VendaRepository {
+import domain.entity.Venda;
+
+public interface VendaRepository extends Repository<Venda> {
+
 }

@@ -1,4 +1,6 @@
 package adapters.dao;
 
-public interface ProdutoDAO {
+import domain.entity.Produto;
+
+public interface ProdutoDAO extends DAO<Produto> {
 }

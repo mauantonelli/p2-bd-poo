@@ -1,4 +1,6 @@
 package adapters.dao;
 
-public interface VendaDAO {
+import domain.entity.Venda;
+
+public interface VendaDAO extends DAO<Venda> {
 }

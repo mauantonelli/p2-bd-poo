@@ -1,4 +1,4 @@
 package adapters.repository;
 
-public interface ProdutoRepositoryImpl {
+public class ProdutoRepositoryImpl {
 }
